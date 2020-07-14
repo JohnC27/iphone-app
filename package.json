@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server --open=build",
-    "test": "stylelint **/*.css",
+    "test": "stylelint templates/*.css",
     "build": "pug -o build/ templates/index.pug & csso templates/index.css -o build/index.min.css"
   },
   "repository": {
