@@ -4,7 +4,9 @@
   "description": "An app for iphone",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server",
+    "test": "stylelint **/*.css",
+    "build": "pug -o build/ templates/index.pug & csso templates/index.css -o build/css/index.min.css"
   },
   "repository": {
     "type": "git",
