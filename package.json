@@ -1,0 +1,19 @@
+{
+  "name": "iphone-app",
+  "version": "1.0.0",
+  "description": "An app for iphone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnC27/iphone-app.git"
+  },
+  "author": "Evgeniy Khristenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnC27/iphone-app/issues"
+  },
+  "homepage": "https://github.com/JohnC27/iphone-app#readme"
+}
