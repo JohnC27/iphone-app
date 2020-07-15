@@ -96,3 +96,37 @@ fieldset {
 section {
   padding: 45px 20px;
 }
+
+ul {
+  display: grid;
+  list-style: none;
+  grid-auto-flow: column;
+  grid-column-gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+small {
+  font-size: var(--small-font-size);
+  color: var(--dark-text-color);
+}
+
+nav {
+  display: grid;
+  grid-row-gap: 8px;
+}
+
+li {
+  position: relative;
+}
+
+li::after {
+  content: "|";
+  position: absolute;
+  right: -0.5em;
+  color: var(--dark-text-color);
+}
+
+li:last-child::after {
+  content: "";
+}
