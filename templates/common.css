@@ -89,5 +89,10 @@ a:link {
 
 fieldset {
   border: none;
-  margin-bottom: 15px;
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+section {
+  padding: 45px 20px;
 }
