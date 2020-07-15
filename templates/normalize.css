@@ -1,14 +1,14 @@
 :root {
-  --main-bg-color: #333333;
-  --light-bg-color: #4f4f4f;
   --btn-bg-color: #219653;
-  --main-text-color: #f2f2f2;
   --dark-text-color: #828282;
-  --input-text-color: #e0e0e0;
-  --main-font-size: 18px;
-  --small-font-size: 14px;
   --h1-font-size: 36px;
   --h2-font-size: 24px;
+  --input-text-color: #e0e0e0;
+  --light-bg-color: #4f4f4f;
+  --main-bg-color: #333333;
+  --main-text-color: #f2f2f2;
+  --main-font-size: 18px;
+  --small-font-size: 14px;
 }
 
 @font-face {
