@@ -57,6 +57,8 @@ p {
 }
 
 label {
+  display: block;
+  margin: 0 0 8px 8px;
   color: var(--dark-text-color);
 }
 
@@ -113,9 +115,4 @@ fieldset:last-of-type {
 
 section {
   padding: 45px 25px;
-}
-
-label {
-  display: block;
-  margin: 0 0 8px 8px;
 }
