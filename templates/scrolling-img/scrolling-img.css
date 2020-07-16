@@ -1,0 +1,5 @@
+.scrolling-img {
+  height: 218px;
+  background: url("../../img/app-screenshot-bg.jpg");
+  background-size: cover;
+}
