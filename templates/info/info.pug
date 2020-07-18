@@ -1,4 +1,4 @@
-each el, i in info
-  section(style=("background: url(../../img/" + el.img + ") no-repeat; background-size: cover;") class=(i % 2 != 0 ? "large-padding" : ""))
+each el, i in info_items
+  section.info(style=("background: url(../../img/" + el.img + ") no-repeat; background-size: cover;"))
     h2 #{el.title}
     p #{el.text}
