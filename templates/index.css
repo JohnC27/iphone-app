@@ -1,1 +1,3 @@
-@import "../templates/normalize.css";
+@import "../templates/common.css";
+@import "../templates/header/header.css";
+@import "../templates/footer/footer.css";

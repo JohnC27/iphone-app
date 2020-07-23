@@ -96,3 +96,8 @@ fieldset {
 section {
   padding: 45px 20px;
 }
+
+small {
+  font-size: var(--small-font-size);
+  color: var(--dark-text-color);
+}
