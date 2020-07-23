@@ -101,25 +101,3 @@ small {
   font-size: var(--small-font-size);
   color: var(--dark-text-color);
 }
-
-nav {
-  display: grid;
-  grid-row-gap: 8px;
-  grid-auto-flow: column;
-  grid-column-gap: 15px;
-}
-
-nav > a {
-  position: relative;
-}
-
-nav > a::after {
-  content: "|";
-  position: absolute;
-  right: -0.6em;
-  color: var(--dark-text-color);
-}
-
-nav > a:last-child::after {
-  content: "";
-}

@@ -1,7 +1,29 @@
-footer {
+.footer {
   border-top: 1px solid var(--light-bg-color);
   padding: 20px 25px 40px;
   display: grid;
   grid-row-gap: 8px;
   justify-items: start;
+}
+
+.footer__nav {
+  display: grid;
+  grid-row-gap: 8px;
+  grid-auto-flow: column;
+  grid-column-gap: 15px;
+}
+
+.footer__link {
+  position: relative;
+}
+
+.footer__link::after {
+  content: "|";
+  position: absolute;
+  right: -0.6em;
+  color: var(--dark-text-color);
+}
+
+.footer__link:last-child::after {
+  content: "";
 }
