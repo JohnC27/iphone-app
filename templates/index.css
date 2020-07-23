@@ -1,6 +1,5 @@
-@import "../templates/common.css";
-@import "../templates/normalize.css";
 @import "../templates/main.css";
+@import "../templates/normalize.css";
 @import "../templates/info/info.css";
 @import "../templates/date/date.css";
 @import "../templates/reg/reg.css";

@@ -1,5 +1,9 @@
+.large-padding {
+  padding-left: 80px;
+}
+
 .app-screenshot {
-  height: 218px;
   background: url("../../img/app-screenshot-bg.jpg");
   background-size: cover;
+  height: 218px;
 }
