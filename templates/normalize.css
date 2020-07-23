@@ -71,7 +71,7 @@ input[type="text"] {
   border: 1px solid var(--light-bg-color);
   border-radius: 5px;
   color: var(--input-text-color);
-  padding: 8px;
+  padding: 6px 8px;
   max-width: 325px;
   width: 100%;
 }
