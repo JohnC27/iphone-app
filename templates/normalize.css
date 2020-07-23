@@ -109,24 +109,17 @@ nav {
   grid-column-gap: 15px;
 }
 
-span {
-  font-size: var(--small-font-size);
-  position: relative;
-}
-
 nav > a {
   position: relative;
 }
 
-nav > a::after,
-nav > span::after {
+nav > a::after {
   content: "|";
   position: absolute;
   right: -0.6em;
   color: var(--dark-text-color);
 }
 
-nav > a:last-child::after,
-nav > span:last-child::after {
+nav > a:last-child::after {
   content: "";
 }
