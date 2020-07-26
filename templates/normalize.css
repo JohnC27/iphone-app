@@ -97,6 +97,7 @@ button {
   padding: 7px 23px;
   font: var(--main-font-size);
   margin: 0 auto;
+  cursor: pointer;
 }
 
 a:link {
