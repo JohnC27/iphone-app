@@ -3,22 +3,26 @@
     {
       "title": "Expense tracking",
       "text": "Smart notification and integration with all major bank apps help you not to forget about a dime you spent",
-      "img": "/img/expense-tracking-bg.jpg"
+      "img": "/img/expense-tracking-bg.jpg",
+      "id": "expense-tracking"
     },
     {
       "title": "Comprehensive analytics",
       "text": "Daily, weekly, monthly and annual reports allow you to deeply analyze your expenses to understand how to spend your money practically",
-      "img": "/img/comprehensive-analytics-bg.jpg"
+      "img": "/img/comprehensive-analytics-bg.jpg",
+      "id": "comprehensive-analytics"
     },
     {
       "title": "Smart predictions",
       "text": "Unique algorithm predicts your upcoming expenses allowing you to plan your future better",
-      "img": "/img/smart-predictions-bg.jpg"
+      "img": "/img/smart-predictions-bg.jpg",
+      "id": "smart-predictions"
     },
     {
       "title": "Limits and budgets",
       "text": "Customizable strictness of limits on your different accounts allow you to treat yourself from time to time while being very practical in general",
-      "img": "/img/limits-and-budgets-bg.jpg"
+      "img": "/img/limits-and-budgets-bg.jpg",
+      "id": "limits-budgets"
     }
   ]
 }
