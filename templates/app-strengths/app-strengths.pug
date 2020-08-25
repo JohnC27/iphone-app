@@ -1,4 +1,6 @@
 each el, i in app_strengths
-  section(class=`info ${el.id}` style=(`background: url("${el.img}") no-repeat; background-size: cover;`))
-    h2 #{el.title}
-    p #{el.text}
+  section(class=`info ${el.id}`)
+    div.info__background(style=`background: url("${el.img}") no-repeat; background-size: cover;`)
+    div.info__content
+      h2 #{el.title}
+      p #{el.text}
