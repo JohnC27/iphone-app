@@ -48,10 +48,22 @@ h1 {
 h2 {
   font-size: var(--h2-font-size);
   margin-bottom: 8px;
+  max-width: 255px;
+}
+
+p {
+  max-width: 255px;
+  margin: 0;
 }
 
 label {
+  display: block;
+  margin: 0 0 8px 8px;
   color: var(--dark-text-color);
+}
+
+input {
+  font-size: var(--main-font-size);
 }
 
 input[type="text"] {
@@ -59,7 +71,9 @@ input[type="text"] {
   border: 1px solid var(--light-bg-color);
   border-radius: 5px;
   color: var(--input-text-color);
-  padding: 8px;
+  padding: 6px 8px;
+  max-width: 325px;
+  width: 100%;
 }
 
 input[type="text"]:active {
@@ -76,10 +90,14 @@ input[type="text"]:valid {
 
 button {
   background-color: var(--btn-bg-color);
+  display: block;
   color: var(--main-text-color);
   border: none;
   border-radius: 5px;
   padding: 7px 23px;
+  font: var(--main-font-size);
+  margin: 0 auto;
+  cursor: pointer;
 }
 
 a:link {
@@ -93,6 +111,10 @@ fieldset {
   padding: 0;
 }
 
+fieldset:last-of-type {
+  margin-bottom: 30px;
+}
+
 section {
-  padding: 45px 20px;
+  padding: 45px 25px;
 }

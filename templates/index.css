@@ -1,1 +1,5 @@
+@import "../templates/main.css";
 @import "../templates/normalize.css";
+@import "../templates/app-strengths/app-strengths.css";
+@import "../templates/date/date.css";
+@import "../templates/reg/reg.css";

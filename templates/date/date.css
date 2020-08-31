@@ -1,0 +1,6 @@
+.date {
+  background: radial-gradient(83.53% 83.53% at 50% 50%, #000000 0%, var(--main-bg-color) 93.89%);
+  display: grid;
+  justify-items: center;
+  padding: 55px;
+}

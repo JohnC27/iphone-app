@@ -6,7 +6,7 @@
   "scripts": {
     "start": "live-server --open=build",
     "test": "stylelint templates/*.css",
-    "build": "pug -o build/ templates/index.pug & csso templates/index.css -o build/index.min.css"
+    "build": "pug -O data.json -o build/ templates/index.pug & csso templates/index.css -o build/index.min.css"
   },
   "repository": {
     "type": "git",

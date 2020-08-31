@@ -1,0 +1,30 @@
+.comprehensive-analytics, .limits-budgets {
+  padding-left: 80px;
+}
+
+.info {
+  overflow: hidden;
+  position: relative;
+}
+
+.info__background {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: 1s;
+  width: 100%;
+}
+
+.info__background--blur {
+  filter: blur(20px);
+}
+
+.info__content {
+  transform: translateX(-100vw);
+  transition: 1s;
+}
+
+.info__content--visible {
+  transform: translateX(0);
+}
