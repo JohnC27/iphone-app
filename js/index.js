@@ -1,4 +1,6 @@
 window.onload = () => {
+  const infoBlocks = document.querySelectorAll(`.info`);
+
   const options = {
     root: null,
     rootMargin: `0px`,
@@ -17,8 +19,6 @@ window.onload = () => {
       }
     });
   }, options);
-
-  const infoBlocks = document.querySelectorAll(`.info`);
 
   infoBlocks.forEach((block) => {
     observer.observe(block);
